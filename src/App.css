@@ -1,0 +1,23 @@
+@import url('./common.styles.css');
+
+.task-panel{
+  background-color: var(--redopa01);
+  height:7vh;
+  width:100vw;
+}
+.task-view{
+  background-color: var(--white250opa03);
+  width:100vw;
+  min-height:93vh;
+  padding:5vw;
+}
+
+@media all and (min-width:600px){
+  .task-panel{
+    height:5vh;
+  }
+  .task-view{
+    height:95vh;
+    padding:2vw;
+  }
+}

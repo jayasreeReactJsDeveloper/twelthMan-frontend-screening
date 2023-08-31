@@ -1,0 +1,31 @@
+.navbar{
+    width: 90%;
+    height:5vw;
+    margin: 1rem 0rem;
+}
+
+.desktop-navbar-menu{
+    display:none;
+}
+
+@media all and (min-width:700px){
+    .navbar{
+        height:3vw;
+    }
+}
+
+@media all and (min-width:900px){
+    .navbar{
+        height:1rem;
+        margin:0.1rem 0 1rem;
+    }
+
+    .mobile-navbar-menu{
+        display:none;
+    }
+    
+    .desktop-navbar-menu{
+        display:flex;
+        width:80%;
+    }
+}

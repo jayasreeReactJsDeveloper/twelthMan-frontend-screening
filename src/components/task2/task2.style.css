@@ -1,0 +1,59 @@
+@import url('../../common.styles.css');
+
+.task2-container{
+    width:100vw;
+    display:flex;
+    flex-direction: column;
+}
+
+.products-list{
+    width:95vw;
+}
+
+.product-container{
+    box-shadow: 2px 2px 2px 2px var(--blue);
+    border:1px solid var(--blue);
+    background-image:linear-gradient(to bottom left, rgba(29, 38, 238, 0.1),rgba(20, 242, 20, 0.1));
+    padding:1.5rem 0.5rem;
+    border-radius: 1rem;
+    width:30%;
+    height:200px;
+    text-align: center;
+}
+
+.filters-section{
+    width:100%;
+    border-bottom:1px solid var(--black);
+}
+
+.search-input-container{
+    background-color:var(--gray03);
+    width:90%;
+    padding:0.5rem;
+    border:1px solid var(--white230);
+    border-radius:1rem;
+    margin-bottom:1rem;
+}
+
+.search-input{
+    width:80%;
+    background:none;
+    border:none;
+    outline:none;
+}
+
+@media all and (min-width:600px){
+    .task2-container{
+        flex-direction:row;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+    .filters-section{
+        width:30vw;
+        border-right:1px solid var(--black);
+        margin-right:0.5rem;
+    }
+    .products-list{
+        width:60vw;
+    }
+}

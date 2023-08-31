@@ -1,0 +1,12 @@
+@import url('../../../common.styles.css');
+
+.pricing-title{
+    color:var(--myColor);
+}
+
+@media all and (min-width:700px) {
+    .price-plans-list{
+        flex-direction:row;
+        width:90vw;
+    }
+}
